@@ -16,6 +16,7 @@
 		1D2FF20F24F140DF0027BBE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FF20E24F140DF0027BBE2 /* Post.swift */; };
 		1D2FF21124F1411F0027BBE2 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FF21024F1411F0027BBE2 /* Api.swift */; };
 		1D2FF21324F1424E0027BBE2 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FF21224F1424E0027BBE2 /* PostList.swift */; };
+		1D2FF21524F145680027BBE2 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FF21424F145680027BBE2 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1D2FF20E24F140DF0027BBE2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1D2FF21024F1411F0027BBE2 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		1D2FF21224F1424E0027BBE2 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		1D2FF21424F145680027BBE2 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				1D2FF20E24F140DF0027BBE2 /* Post.swift */,
 				1D2FF21024F1411F0027BBE2 /* Api.swift */,
 				1D2FF21224F1424E0027BBE2 /* PostList.swift */,
+				1D2FF21424F145680027BBE2 /* DataStore.swift */,
 			);
 			path = APICall;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2FF21524F145680027BBE2 /* DataStore.swift in Sources */,
 				1D2FF1FB24F140C30027BBE2 /* AppDelegate.swift in Sources */,
 				1D2FF21324F1424E0027BBE2 /* PostList.swift in Sources */,
 				1D2FF1FD24F140C30027BBE2 /* SceneDelegate.swift in Sources */,
